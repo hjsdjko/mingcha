@@ -1,0 +1,103 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/changepassword/changepassword",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/recharge/recharge",
+    "pages/address/detail",
+    "pages/address/list",
+    "pages/cart/list",
+    "pages/cart/list2",
+    "pages/cart/add-or-update",
+    "pages/cart/detail",
+    "pages/chaye/list",
+    "pages/chaye/list2",
+    "pages/chaye/add-or-update",
+    "pages/chaye/detail",
+    "pages/chayeCollection/list",
+    "pages/chayeCollection/list2",
+    "pages/chayeCollection/add-or-update",
+    "pages/chayeCollection/detail",
+    "pages/chayeCommentback/list",
+    "pages/chayeCommentback/list2",
+    "pages/chayeCommentback/add-or-update",
+    "pages/chayeCommentback/detail",
+    "pages/chayeOrder/list",
+    "pages/chayeOrder/confirm",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/gonggao/list",
+    "pages/gonggao/list2",
+    "pages/gonggao/add-or-update",
+    "pages/gonggao/detail",
+    "pages/lishijieshao/list",
+    "pages/lishijieshao/list2",
+    "pages/lishijieshao/add-or-update",
+    "pages/lishijieshao/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/list2",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "汉中茗茶微系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#8cd9b7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/chaye/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "茶叶"
+      },
+      {
+        "pagePath": "pages/lishijieshao/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "茗茶历史"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}
